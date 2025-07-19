@@ -19,7 +19,6 @@ BuildRequires:	Qt6Gui-devel >= 5.11.1
 BuildRequires:	Qt6Widgets-devel
 BuildRequires:	boost-devel >= 1.34.0
 BuildRequires:	gettext-devel
-BuildRequires:	gpgme-qt6-devel >= 1:1.23.2
 BuildRequires:	ka6-kpimtextedit-devel >= %{kdeappsver}
 BuildRequires:	kf6-extra-cmake-modules >= %{kframever}
 BuildRequires:	kf6-kcodecs-devel >= %{kframever}
@@ -31,6 +30,7 @@ BuildRequires:	kf6-kitemmodels-devel >= %{kframever}
 BuildRequires:	kf6-kwidgetsaddons-devel >= %{kframever}
 BuildRequires:	kf6-kwindowsystem-devel >= %{kframever}
 BuildRequires:	ninja
+BuildRequires:	qgpgme-qt6-devel >= 1:1.23.2
 BuildRequires:	rpmbuild(macros) >= 1.164
 Obsoletes:	ka5-%{kaname} < %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
