@@ -9,7 +9,7 @@ Summary:	Kleo library
 Summary(pl.UTF-8):	Biblioteka kleo
 Name:		ka6-%{kaname}
 Version:	25.04.3
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
@@ -30,7 +30,7 @@ BuildRequires:	kf6-kitemmodels-devel >= %{kframever}
 BuildRequires:	kf6-kwidgetsaddons-devel >= %{kframever}
 BuildRequires:	kf6-kwindowsystem-devel >= %{kframever}
 BuildRequires:	ninja
-BuildRequires:	qgpgme-qt6-devel >= 1:1.23.2
+BuildRequires:	qgpgme-qt6-devel >= 1.23.2
 BuildRequires:	rpmbuild(macros) >= 1.164
 Obsoletes:	ka5-%{kaname} < %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
