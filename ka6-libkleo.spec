@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.12.0
+%define		kdeappsver	25.12.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		libkleo
 Summary:	Kleo library
 Summary(pl.UTF-8):	Biblioteka kleo
 Name:		ka6-%{kaname}
-Version:	25.12.0
+Version:	25.12.1
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	c645c236913584a0ee3f1aba2bb9bbdf
+# Source0-md5:	20bdaf23abfea62f2f66732c3f92bf04
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Gui-devel >= 5.11.1
 BuildRequires:	Qt6Widgets-devel
